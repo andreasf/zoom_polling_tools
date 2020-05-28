@@ -75,7 +75,7 @@ On the meeting page, open the web inspector of your browser and switch to the Ja
 Creating a summary from a poll report
 -------------------------------------
 
-The `summarize_reports.py` takes a poll report as the input and prints a summary. For each question, the question text, answer texts and the number of responses per answer are listed.
+`summarize_reports.py` takes a poll report as the input and prints a summary. For each question, the question text, answer texts and the number of responses per answer are listed.
 
 1. After your meeting has ended, open the [meeting reports list](https://zoom.us/account/my/report/regmeeting) on the Zoom site.
 2. Select "Poll Report" and click search to switch to the right mode
