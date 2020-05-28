@@ -77,10 +77,10 @@ Creating a summary from a poll report
 
 The `summarize_reports.py` takes a poll report as the input and prints a summary. For each question, the question text, answer texts and the number of responses per answer are listed.
 
-1. Open the [meeting reports list](https://zoom.us/account/my/report/regmeeting) on the Zoom site.
+1. After your meeting has ended, open the [meeting reports list](https://zoom.us/account/my/report/regmeeting) on the Zoom site.
 2. Select "Poll Report" and click search to switch to the right mode
 3. Find your meeting and click "Generate"
-4. Download your report from the report queue page once it's ready
+4. Download your report from the report queue page once it's ready. If the file is empty, regenerate the report at a later time.
 5. Run `summarize_reports.py` against the file:
 
 ```sh
@@ -97,3 +97,5 @@ What is the air-speed velocity of an unladen swallow?
 50 to 65 km/h: 2
 An African or European swallow?: 1
 ```
+
+An alternative to running this tool after the meeting is to open the meeting page (https://zoom.us/meeting/id) during the meeting. Once the polls have ended, the results can be saved, e.g. by printing the page to a PDF.
